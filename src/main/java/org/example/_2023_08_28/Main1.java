@@ -30,5 +30,6 @@ public class Main1 {
 
     public static void main(String[] args) {
         int[] qaa = {3, 21, 45, 6, 98, 7};
+        System.out.println(new Main1().returnMinValue(qaa));
     }
 }
