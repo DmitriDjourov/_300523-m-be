@@ -28,8 +28,48 @@ public class Main1 {
         return min;
     }
 
+    public int[] m2() {
+        return null;
+    }
+
+    private int sumArray(int[] array) {
+        if (array.length == 0) {
+            return 0;
+        }
+        int left = 0;
+        int right = array.length - 1;
+        int sum = 0;
+
+        while (left <= right) {
+            if (left == right) {
+                sum += array[left];
+                break;
+            } else {
+                sum = sum + array[left] + array[right];
+                left++;
+                right--;
+            }
+        }
+        return sum;
+    }
+
+    public int returnSum (int[] arr) {
+        if (arr.length == 0) return 0;
+        int result = 0;
+
+        if (arr.length%2==1){
+            result = arr[arr.length/2];
+        }
+
+        for (int i = 0; i < arr.length/2; i++) {
+            result += arr[i] + arr[arr.length-1-i];
+        }
+        return result;
+    }
+
+
     public static void main(String[] args) {
-        int[] qaa = {3, 21, 45, 6, 98, 7};
-        System.out.println(new Main1().returnMinValue(qaa));
+        int[] qaa = {31, 21, 45, 6, 98, 7};
+
     }
 }
