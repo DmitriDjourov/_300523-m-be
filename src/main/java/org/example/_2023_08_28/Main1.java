@@ -70,6 +70,5 @@ public class Main1 {
 
     public static void main(String[] args) {
         int[] qaa = {31, 21, 45, 6, 98, 7};
-
     }
 }
