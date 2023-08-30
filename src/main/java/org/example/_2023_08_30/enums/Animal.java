@@ -29,3 +29,16 @@ enum Animal {
 
     abstract String makeSound();
 }
+
+class TE {
+    Animal animal;
+
+    public TE(Animal animal) {
+        this.animal = animal;
+    }
+
+    public static void main(String[] args) {
+        TE te = new TE(Animal.DOG);
+        te.animal.makeSound();
+    }
+}
