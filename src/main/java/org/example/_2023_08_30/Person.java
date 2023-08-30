@@ -19,6 +19,10 @@ public class Person {
         this.dog = dog;
     }
 
+    public void get() {
+
+    }
+
     @Override
     public String toString() {
         return "Person{" +
@@ -47,6 +51,7 @@ public class Person {
         Person per = new Person(29, "Dmitry", dog);
 
         per.dog = dog1;
+        per.get();
     }
 }
 
