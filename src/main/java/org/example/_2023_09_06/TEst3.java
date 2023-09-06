@@ -15,3 +15,19 @@ public class TEst3 {
         }
     }
 }
+
+class Entity {
+    void get() {
+
+    }
+}
+
+interface RR {
+
+}
+
+class Inher extends Entity implements RR {
+    public static void main(String[] args) {
+        Entity rr = new Inher();
+    }
+}
