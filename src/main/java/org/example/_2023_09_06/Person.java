@@ -17,7 +17,8 @@ public class Person extends Object implements Comparable<Person> {
     }
 
     public int getMax(int[] arr) {
-        return 10;
+        //.....
+        return arr.length;
     }
 
     public double getSalary() {
