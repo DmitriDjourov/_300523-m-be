@@ -1,5 +1,4 @@
 Уровень сложности 5 из 10:
-
 Найти сумму всех элементов ArrayList<Integer>.
 Найти среднее значение элементов LinkedList<Integer>.
 Перебрать ArrayList<String> и вывести все элементы на экран.
@@ -40,3 +39,11 @@
 Перебрать ArrayList<String> и создать новый список, содержащий только уникальные строки.
 Перебрать LinkedList<String> и объединить все строки в одну с использованием разделителя.
 Создать LinkedList с объектами вашего собственного класса и отсортировать их по нескольким критериям.
+
+Vladislav - Lidiya
+Walter - Ivan
+Dmitry - Botirjon
+Olexandr - Pasha
+Bogdan - Tatiana
+Lana - Vasily
+Davud - Mikhail
