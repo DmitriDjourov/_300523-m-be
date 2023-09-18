@@ -6,4 +6,4 @@
 Переберите HashMap и удалите все элементы с четными значениями.
 Переберите TreeMap и удалите все элементы с ключами, начинающимися с буквы 'A'.
 Переберите TreeMap и найдите наибольший ключ, который меньше или равен заданному ключу.
-Переберите HashMap и найдите ключ с максимальной суммой значений в его вложенных HashMap: HashMap<String, HashMap<String, Integer>> nestedHashMap = new HashMap<>();
+**Переберите HashMap и найдите ключ с максимальной суммой значений в его вложенных HashMap: HashMap<String, HashMap<String, Integer>> nestedHashMap = new HashMap<>();
