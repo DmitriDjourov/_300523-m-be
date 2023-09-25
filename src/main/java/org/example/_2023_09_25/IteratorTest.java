@@ -9,6 +9,7 @@ public class IteratorTest {
         String palindrome = "MADAM";
         String notPalindrome = "YESTERDAY";
 
-
+        System.out.println("MADAM: " + isPalindrome(palindrome));
+        System.out.println("YESTERDAY: " + isPalindrome(palindrome));
     }
 }
