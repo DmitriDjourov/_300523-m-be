@@ -2,6 +2,7 @@ package org.example._2023_10_04;
 
 public class Rec3 {
     public static void main(String[] args) {
+        m1(Rec3::rr);
 
     }
 
@@ -11,13 +12,13 @@ public class Rec3 {
         System.out.println("$$$$");
     }
 
-    public static void m1(Inter inter) {
+    public static void m1(Inter1 inter) {
         System.out.println("****");
-        inter.get("1", "a");
+        inter.get1();
     }
 }
 
 @FunctionalInterface
 interface Inter1 {
-    void get(String s, String d);
+    void get1();
 }
