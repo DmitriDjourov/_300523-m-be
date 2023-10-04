@@ -26,7 +26,7 @@ public class TaskManager {
 
         /**
          *{Walter=2,
-         * Dmitry=0,
+         * Dmitry=4,
          * Batyr=3,
          * Vasily=1,
          * Viktor=3,
@@ -38,6 +38,7 @@ public class TaskManager {
          * Bogdan=3,
          * Ruslan=3,
          * Alexey=1}
+         * 10.00-11.15
          */
     }
 }
