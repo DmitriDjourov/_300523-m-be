@@ -2,6 +2,7 @@ package org.example._2023_10_09;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamEx2 {
     public static void main(String[] args) {

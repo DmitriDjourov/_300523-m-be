@@ -3,8 +3,25 @@ package org.example._2023_10_09;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class StreamEE {
+    private static double getAvgGrade(List<Student> studentList) {
+        return studentList.stream()
+                .mapToDouble(st -> st.getGrade())
+                .average()
+                .orElse(0.0);
+    }
+
+    private static Set<Integer> getAllIds(List<Student> studentList) {
+        return studentList.stream()//st1 st2 st3 st4
+                //              f1 f2 f3 f4
+                .flatMap(st -> st.getFaculty().stream())
+                .map(Faculty::getId)
+                .collect(Collectors.toSet());
+    }
+
     public static void main(String[] args) {
         Faculty psy = new Faculty("PSY", 1);
         Faculty it = new Faculty("IT", 2);
@@ -42,6 +59,18 @@ class Student {
         this.grade = grade;
         this.faculty = faculty;
     }
+
+    public double getGrade() {
+        return grade;
+    }
+
+    public void setGrade(double grade) {
+        this.grade = grade;
+    }
+
+    public List<Faculty> getFaculty() {
+        return faculty;
+    }
 }
 
 class Faculty {
@@ -51,5 +80,9 @@ class Faculty {
     public Faculty(String facultyName, int id) {
         this.facultyName = facultyName;
         this.id = id;
+    }
+
+    public int getId() {
+        return id;
     }
 }
