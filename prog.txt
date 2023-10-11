@@ -18,11 +18,11 @@
 ////Graphs. Practice.
 
 *********************Lambdas & Stream API************************************
-Method Reference
-Lambdas, Functional Interfaces
-Existing Functional Interfaces in Java 8. Functions and Predicates.
-Stream API: Stream, primitive Intermediate and Terminal operations.
-Java Streams: Flat map.
+++Method Reference
+++Lambdas, Functional Interfaces
+++Existing Functional Interfaces in Java 8. Functions and Predicates.
+++Stream API: Stream, primitive Intermediate and Terminal operations.
+++Java Streams: Flat map.
 Java Streams: Collectors and Custom Collectors.
 
 *********************Input and Output in Java.*********************
@@ -63,6 +63,7 @@ Spring Boot: validation
 Spring Boot: logging and AOP basics
 Spring Boot: scheduled jobs
 
+13.03.2024
 
 
 CRUD::
