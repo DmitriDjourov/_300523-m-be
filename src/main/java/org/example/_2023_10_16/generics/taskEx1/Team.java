@@ -4,21 +4,27 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Team {
+public class Team<T extends Participant> {
     private String name;
-    private List<Participant> participants = new ArrayList<>();
+    private List<T> participants = new ArrayList<>();
     private static final Random RANDOM = new Random(); //private static final - CAPS LOCK!
 
     public Team(String name) {
         this.name = name;
     }
 
-    public void addNewParticipant(Participant newParticipant) {
+    public void addNewParticipant(T newParticipant) {
         participants.add(newParticipant);
         System.out.println("New participant was added to the team: " + name);
     }
 
-    public void play(Team team) {
+    /**
+     * Team t1 = new Team(a);
+     * Team t2 = new Team(b);
+     * t1.play(t2)
+     *
+     */
+    public void play(Team<T> team) {
         String winner;
         int r = RANDOM.nextInt(2);
         if(r == 0) {
