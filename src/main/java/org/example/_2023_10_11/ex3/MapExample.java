@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MapExample {
     public static void main(String[] args) {
-        // Пример 1.txt: Применение map() с преобразованием объектов
+        // Пример 1: Применение map() с преобразованием объектов
         // Создаем список сотрудников
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee("John", 5000));

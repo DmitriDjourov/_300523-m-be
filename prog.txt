@@ -23,7 +23,7 @@
 ++Existing Functional Interfaces in Java 8. Functions and Predicates.
 ++Stream API: Stream, primitive Intermediate and Terminal operations.
 ++Java Streams: Flat map.
-Java Streams: Collectors and Custom Collectors.
+!!!!!Java Streams: Collectors and Custom Collectors.!!!!!!
 
 *********************Input and Output in Java.*********************
 Introduction to Input and Output in Java
@@ -33,7 +33,7 @@ Reading/Writing of strings.
 *********************************General and repetition***************************
 Regular expressions. Basics. Regular Expressions, Java RegExp
 ++Class String and its methods. Immutable. StringBuilder, StringBuffer, performance test.
-Generics
+++Generics
 ++Object.equals
 Exceptions.
 Unit testing. JUnit.
