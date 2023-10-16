@@ -1,7 +1,7 @@
 package org.example._2023_10_16.generics.taskEx1;
 
-public class Pupil extends Participant{
-    public Pupil(String name, int age) {
+public class Schoolar extends Participant{
+    public Schoolar(String name, int age) {
         super(name, age);
     }
 }
