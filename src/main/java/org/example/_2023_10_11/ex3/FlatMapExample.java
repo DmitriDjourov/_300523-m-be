@@ -10,7 +10,7 @@ public class FlatMapExample {
      * в один плоский стрим.
      */
     public static void main(String[] args) {
-        // Пример 1.txt: Разбиение строки на отдельные символы и их удвоение
+        // Пример 1: Разбиение строки на отдельные символы и их удвоение
         List<String> words = Arrays.asList("Привет", "Мир");
         List<String> doubledLetters = words.stream()
                 .flatMap(word -> word.chars()
