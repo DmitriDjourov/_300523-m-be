@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ *
+ * @param <T> type
+ *
+ */
 public class Team<T extends Participant> {
     private String name;
     private List<T> participants = new ArrayList<>();
