@@ -27,7 +27,7 @@
 
 *********************Input and Output in Java.*********************
 ++Introduction to Input and Output in Java
-Reading/Writing of bytes.
+////Reading/Writing of bytes.
 ++Reading/Writing of strings.
 
 *********************************General and repetition***************************
@@ -35,9 +35,10 @@ Regular expressions. Basics. Regular Expressions, Java RegExp
 ++Class String and its methods. Immutable. StringBuilder, StringBuffer, performance test.
 ++Generics
 ++Object.equals
-++Exceptions.
-Unit testing. JUnit.
-LocalDate, LocalDateTime, ZonedDateTime, exercises.
+++Exceptions
+++Unit testing. JUnit.
+////LocalDate, LocalDateTime, ZonedDateTime, exercises.
+Annotations.
 
 *************************Multithreading*************************************
 General introduction to Java multithreading, main problems.
@@ -52,7 +53,6 @@ Apache Maven, сборка проектов.
 Принципы программирования: DRY, YAGNI, KISS,
 SOLID.
 Reflections.
-Annotations.
 Spring Framework: Introduction, Context and Beans
 Spring Framework: Beans configuration
 Spring Boot: Onion (Hexagonal) architecture
