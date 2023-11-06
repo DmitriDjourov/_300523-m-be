@@ -30,8 +30,13 @@ interface EmailService {
     boolean sendEmail(String toAddress, String subject, String body);
 }
 
-class NotificationService {
+class NotificationService implements EmailService{
     private EmailService emailService;
+
+    @Override
+    public boolean sendEmail(String toAddress, String subject, String body) {
+        return false;
+    }
 
     public NotificationService(EmailService emailService) {
         this.emailService = emailService;
