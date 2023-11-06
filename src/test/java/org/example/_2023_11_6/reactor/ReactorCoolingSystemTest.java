@@ -23,8 +23,10 @@ public class ReactorCoolingSystemTest {
         when(thermometer.getTemperature()).thenReturn(250.0);
         reactorCoolingSystem.setTemperatureThreshold(240.0);
         reactorCoolingSystem.checkReactorCoolingSystem();
+
+
         assertTrue(reactorCoolingSystem.isOn());
-        verify(thermometer, times(1)).getTemperature();
+        verify(thermometer).getTemperature();
     }
 
     @Test
@@ -32,6 +34,7 @@ public class ReactorCoolingSystemTest {
         when(thermometer.getTemperature()).thenReturn(230.0);
         reactorCoolingSystem.setTemperatureThreshold(240.0);
         reactorCoolingSystem.checkReactorCoolingSystem();
+
         assertFalse(reactorCoolingSystem.isOn());
         verify(thermometer, times(1)).getTemperature();
     }
