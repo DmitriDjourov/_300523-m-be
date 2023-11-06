@@ -19,7 +19,6 @@ public class ThermometerTest {
 
     @Test
     void testWorkingSensor() {
-
         thermometer.setTemperature(250.0);
         when(sensor.isBlocked()).thenReturn(false);
         assertEquals(sensor, thermometer.getSensor());
