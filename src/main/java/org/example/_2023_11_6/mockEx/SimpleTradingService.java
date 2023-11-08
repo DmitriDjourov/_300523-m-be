@@ -3,7 +3,7 @@ package org.example._2023_11_6.mockEx;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SimpleTradingService implements TradingService{
+public class SimpleTradingService implements TradingService {
 
     TradeRepository tradeRepository;
     AuditService auditService;
@@ -14,7 +14,7 @@ public class SimpleTradingService implements TradingService{
     }
 
     @Override
-    public Long createTrade(Trade trade) throws CreateTradeException{
+    public Long createTrade(Trade trade) throws CreateTradeException {
         Long id = tradeRepository.createTrade(trade);
         auditService.logNewTrade(trade);
         return id;
