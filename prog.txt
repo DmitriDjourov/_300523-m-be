@@ -38,7 +38,7 @@ Regular expressions. Basics. Regular Expressions, Java RegExp
 ++Exceptions
 ++Unit testing. JUnit.
 ////LocalDate, LocalDateTime, ZonedDateTime, exercises.
-Annotations.
+++Annotations.
 
 *************************Multithreading*************************************
 General introduction to Java multithreading, main problems.
@@ -52,7 +52,7 @@ Threads Executors.
 Apache Maven, сборка проектов.
 Принципы программирования: DRY, YAGNI, KISS,
 SOLID.
-Reflections.
+++Reflections.
 Spring Framework: Introduction, Context and Beans
 Spring Framework: Beans configuration
 Spring Boot: Onion (Hexagonal) architecture
