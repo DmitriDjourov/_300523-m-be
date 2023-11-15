@@ -10,7 +10,7 @@ public class RegEx2 {
                 "Snapdragon 680 y una pantalla de 10,6 pulgadas " +
                 "está en ofer_ta@yahoo.com por 139 euros, " +
                 "su precio más bajo@mail.ru.uk hasta@mail,ru el momento";
-        String patt = "";
+        String patt = "";//todo tasks
 
         Pattern pattern = Pattern.compile(patt);
         Matcher matcher = pattern.matcher(text);
@@ -18,7 +18,5 @@ public class RegEx2 {
         while (matcher.find()) {
             System.out.println("Position: " + matcher.start() + " : " + matcher.group());
         }
-
-
     }
 }
