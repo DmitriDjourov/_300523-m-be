@@ -68,7 +68,7 @@ class Student {
         this.grade = grade;
     }
 
-    public List<Faculty> getFaculty() {
+    public synchronized List<Faculty> getFaculty() {
         return faculty;
     }
 }
