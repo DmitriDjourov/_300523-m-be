@@ -8,6 +8,7 @@ import java.util.concurrent.Exchanger;
 
 public class EXCH {
     private final static Faker FAKER = new Faker();
+
     public static void main(String[] args) {
         Exchanger<Position> exchanger = new Exchanger<>();
 
@@ -28,7 +29,6 @@ public class EXCH {
         new Player(FAKER.name().name(), mainPlayerList, exchanger);
         new Player(FAKER.name().name(), anotherPlayerList, exchanger);
     }
-
 }
 
 enum Position {
