@@ -1,13 +1,12 @@
 package org.example._2023_12_04;
 
-import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class CHMAP {
     public static void main(String[] args) throws InterruptedException {
         ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<>();
+
         map.put(1, "Mik");
         map.put(2, "Ni");
         map.put(3, "Ol");

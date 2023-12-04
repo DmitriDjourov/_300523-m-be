@@ -46,8 +46,8 @@
 ++Synchronization. Mutex, Monitor.
 
 ++Object.wait, Object.notify. Daemon threads
-JavaUtilConcurrent. Concurrent Collections.One-element blocking queue (Messenger).
-Threads Executors.Atomic types.
+++JavaUtilConcurrent. Concurrent Collections.One-element blocking queue (Messenger).
+++Threads Executors.Atomic types.
 
 **************************Spring & Spring Boot*********************************
 Apache Maven, сборка проектов.
