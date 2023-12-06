@@ -51,8 +51,8 @@
 
 **************************Spring & Spring Boot*********************************
 Apache Maven, сборка проектов.
-Принципы программирования: DRY, YAGNI, KISS,
-SOLID.
+++Принципы программирования: DRY, YAGNI, KISS,
+++SOLID.
 ++Reflections.
 Spring Framework: Introduction, Context and Beans
 Spring Framework: Beans configuration
