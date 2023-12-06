@@ -23,7 +23,5 @@ public class COWAL {
         } finally {
             lock.unlock();
         }
-
-
     }
 }
