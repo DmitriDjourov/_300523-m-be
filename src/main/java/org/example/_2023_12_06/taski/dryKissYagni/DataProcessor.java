@@ -1,4 +1,4 @@
-//package PROF.dryKissYagni;
+package org.example._2023_12_06.taski.dryKissYagni;//package PROF.dryKissYagni;
 //
 //import java.util.List;
 //
@@ -26,3 +26,6 @@
 //        System.out.println("Average Age: " + averageAge);
 //    }
 //}
+//
+//// Исправлено:
+//// Вынесли общ

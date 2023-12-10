@@ -1,5 +1,6 @@
 package org.example._2023_12_06.taski.dryKissYagni;
 
+// Нарушение DRY: Дублирование кода
 public class UserValidation {
     public boolean validateUsername(String username) {
         // Проверка на длину имени
@@ -27,5 +28,25 @@ public class UserValidation {
         }
         
         return true;
+    }
+}
+
+// Исправлено:
+// Вынесли общие проверки в отдельный метод и используем их для валидации.
+class UserValidationQ {
+    public boolean validateUsername(String username) {
+        return isLengthValid(username, 6, 20) && isAlphanumeric(username);
+    }
+    
+    public boolean validateEmail(String email) {
+        return isLengthValid(email, 6, 50) && email.contains("@");
+    }
+    
+    private boolean isLengthValid(String input, int minLength, int maxLength) {
+        return input.length() >= minLength && input.length() <= maxLength;
+    }
+    
+    private boolean isAlphanumeric(String input) {
+        return input.matches("^[a-zA-Z0-9]+$");
     }
 }
