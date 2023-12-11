@@ -3,7 +3,7 @@ package org.example._2023_12_06.taski.dryKissYagni;
 public class CA {
     // Нарушение CODE SMELLS: Магические числа
     public double calculateArea(int shapeType, double... params) {
-        if (shapeType == 1) { // 1 - круг
+        if (shapeType == 1) { // 1.txt - круг
             double radius = params[0];
             return Math.PI * radius * radius;
         } else if (shapeType == 2) { // 2 - квадрат
