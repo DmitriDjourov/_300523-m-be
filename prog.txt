@@ -44,7 +44,6 @@
 ++General introduction to Java multithreading, main problems.
 ++Thread, Runnable, Interrupted Exception
 ++Synchronization. Mutex, Monitor.
-
 ++Object.wait, Object.notify. Daemon threads
 ++JavaUtilConcurrent. Concurrent Collections.One-element blocking queue (Messenger).
 ++Threads Executors.Atomic types.
